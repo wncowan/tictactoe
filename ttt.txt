@@ -1,0 +1,25 @@
+start while loop for the program to run
+create a blank board -- empty list with empty spaces " "
+prompt user to choose "X" or "O", based on their choice assign a letter for the computer
+determine who goes first by random coin flip
+within while loop start a while game loop so when game ends, user can restart
+draw the board
+get the player's move
+check if that move is going to result in a win 
+the isWinner function will accept a board argument and the letter to check for
+isWinner will have all permutations resulting in a win
+check if that move will result in a full board aka tie  with isBoardFull
+else, make the move and then make it the computers turn
+
+if it is the computer's move, 
+we need to have the computer choose a move, 
+that will block the player from success, or will result in a computer win.
+When the board is blank or player has no chance of winning yet,
+have the computer preference a corner spot and then middle
+
+to check if the move would result in a win,
+we should make a copy of the board to not affect the original data
+go through each spot, make a move there, 
+check if on of the conditions is true 
+(player would win here so block, computer would win here so win)
+
